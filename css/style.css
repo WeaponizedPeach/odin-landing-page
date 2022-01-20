@@ -98,5 +98,9 @@ section {
 
 .sign-up-button {
   background-color: #3882f6;
+  border-color: #1f2937;
   color: #ffffff;
+  border-radius: 10px;
+  width: min(10vw, 100px);
+  height: max(1vw, 30px);
 }
