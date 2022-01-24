@@ -1,5 +1,7 @@
+/* Font importing */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+/* Common elements */
 body {
   margin: 0;
 }
@@ -42,6 +44,18 @@ main {
   flex-direction: column;
 }
 
+.sign-up-button {
+  background-color: #3882f6;
+  border-color: inherit;
+  color: #ffffff;
+  border-radius: 8px;
+  width: min(20vw, 125px);
+  height: max(1vw, 40px);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Main Section */
 #main-title {
   background-color: #1f2937;
   display: flex;
@@ -74,6 +88,11 @@ main {
   background-color: #5a6068;
 }
 
+#main-title .sign-up-button {
+  border-color: #1f2937;
+}
+
+/* Quote Section */
 #quote {
   background-color: #e5e7eb;
 }
@@ -90,24 +109,10 @@ main {
   font-weight: bold;
 }
 
+/* Call To Action Section */
 #call-to-action .call-container {
   background-color: #3882f6;
   color: #ffffff;
-}
-
-.sign-up-button {
-  background-color: #3882f6;
-  border-color: inherit;
-  color: #ffffff;
-  border-radius: 8px;
-  width: min(20vw, 125px);
-  height: max(1vw, 40px);
-  font-weight: bold;
-  font-size: 16px;
-}
-
-#main-title .sign-up-button {
-  border-color: #1f2937;
 }
 
 #call-to-action .sign-up-button {
