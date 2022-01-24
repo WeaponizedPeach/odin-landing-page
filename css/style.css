@@ -42,10 +42,6 @@ main {
   flex-direction: column;
 }
 
-section {
-  display: flex;
-}
-
 #main-title {
   background-color: #1f2937;
   display: flex;
