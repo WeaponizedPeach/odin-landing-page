@@ -92,6 +92,44 @@ main {
   border-color: #1f2937;
 }
 
+/* Information Section */
+
+#information {
+  padding-bottom: 1vw;
+}
+
+#information h2 {
+  text-align: center;
+  padding: 0.5vw 0;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+
+.info-item {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: max(10vw, 100px);
+}
+
+.info-item img {
+  width: max(10vw, 75px);
+  height: max(10vw, 75px);
+  border-radius: 8px;
+  border: 3px solid #3882f6
+}
+
+.info-item p {
+  font-size: 16px
+}
+
 /* Quote Section */
 #quote {
   background-color: #e5e7eb;
