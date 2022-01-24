@@ -133,6 +133,12 @@ main {
 /* Quote Section */
 #quote {
   background-color: #e5e7eb;
+  display: flex;
+  flex-flow: column;
+}
+
+.quote-container {
+  margin: 4vw max(25vw, 100px);
 }
 
 #quote .quote-text {
@@ -145,11 +151,19 @@ main {
   color: #1f2937;
   font-size: 18px;
   font-weight: bold;
+  text-align: end;
 }
 
 /* Call To Action Section */
+#call-to-action {
+  background-color: white;
+}
+
 #call-to-action .call-container {
+  margin: 4vw max(20vw, 100px);
+  padding: 2vw 5vw;
   background-color: #3882f6;
+  border-radius: 10px;
   color: #ffffff;
 }
 
