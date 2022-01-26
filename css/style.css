@@ -56,7 +56,7 @@ main {
   height: min(8vw, 40px);
   aspect-ratio: 125/40;
   font-weight: bold;
-  font-size: 16px;
+  font-size: min(2.5vw, 16px);
 }
 
 /* Main Section */
@@ -189,7 +189,7 @@ main {
   background-color: #3882f6;
   border-radius: 10px;
   color: #ffffff;
-  font-size: 20px;
+  font-size: min(3vw, 20px);
 }
 
 #call-to-action .sign-up-button {
